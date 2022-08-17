@@ -33,7 +33,7 @@ export default function Home() {
         <section className="flex flex-col 2xl:flex-row justify-center 2xl:justify-between items-center h-screen relative w-[75%] mx-auto">
           <div className="2xl:order-1 order-2 mb-[120px] text-center 2xl:text-left">
             <h1 className="text-very-dark-violet text-4xl 2xl:text-5xl font-bold">More than just <br /> shorter links</h1>
-            <p className="text-grayish-violet 2xl:mb-[5rem] mb-[2rem]">Build your brand's recognition and get detailed <br /> insights on how your links are performing.</p>
+            <p className="text-grayish-violet 2xl:mb-[5rem] mb-[2rem]">Build your brand&apos;s recognition and get detailed <br /> insights on how your links are performing.</p>
             <Link href='/'><a className="button-primary">Get Started</a></Link>
           </div>
           <div className='2xl:order-2 order-1 2xl:mb-[120px]'>
@@ -66,7 +66,7 @@ export default function Home() {
                 <Image src={LogoBrand} alt='LogoBrand'/>
               </div>
               <h2>Brand Recognition</h2>
-              <p>Boost your brand recognition with <br /> each click. Generic links don’t mean a <br /> thing. Branded links help instil <br /> confidence in your content.</p>
+              <p>Boost your brand recognition with <br /> each click. Generic links don&apos;t mean a <br /> thing. Branded links help instil <br /> confidence in your content.</p>
             </article>
             <article className="card translate-y-[2rem] ">
               <div>
