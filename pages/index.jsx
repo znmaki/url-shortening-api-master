@@ -6,6 +6,7 @@ import LogoBrand from '../public/static/images/icon-brand-recognition.svg'
 import LogoRecord from '../public/static/images/icon-detailed-records.svg'
 import LogoCustom from '../public/static/images/icon-fully-customizable.svg'
 import FormURL from "../components/FormURL"
+
 import { useState } from "react"
 
 export default function Home() {

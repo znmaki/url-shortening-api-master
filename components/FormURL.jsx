@@ -33,7 +33,7 @@ const FormURL = ({url, setUrl}) => {
                 resetForm();
             }}
         >
-            <div className="bg-ima-custze-2 flex justify-center">
+            <div className={`bg-ima-custze-2 bg-[url('../public/static/images/bg-boost-desktop.svg')] flex justify-center`}>
                 <Form className='flex flex-col xl:flex xl:flex-row xl:items-center relative w-[80%]'>
                         {/* <Field
                             className="rounded-md"

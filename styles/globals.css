@@ -65,7 +65,7 @@ body {
     @apply bg-[url('../public/static/images/bg-boost-mobile.svg')] xl:bg-[url('../public/static/images/bg-boost-desktop.svg')] bg-no-repeat bg-cover bg-[#3a3053] py-[5rem];
   }
   .bg-ima-custze-2 {
-    @apply bg-[url('../public/static/images/bg-shorten-mobile.svg')] xl:bg-[url('../public/static/images/bg-shorten-desktop.svg')] bg-no-repeat bg-cover bg-[#3a3053] py-[2rem] xl:py-[4rem] rounded-lg w-[100%] bottom-[-74px] absolute xl:bottom-[-84px];
+    @apply /* bg-[url('../public/static/images/bg-shorten-mobile.svg')] xl:bg-[url('../public/static/images/bg-shorten-desktop.svg')] */ bg-no-repeat bg-cover bg-[#3a3053] py-[2rem] xl:py-[4rem] rounded-lg w-[100%] bottom-[-74px] absolute xl:bottom-[-84px];
   }
   .footer {
     @apply bg-very-dark-violet;
