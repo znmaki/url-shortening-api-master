@@ -10,7 +10,7 @@ const Header = () => {
     return (
         <nav className='grid grid-cols-2  grid-flow-row 2xl:flex 2xl:justify-between w-[75%] mx-auto mt-5'>
             <div className='2xl:basis-1/4 flex'>
-                <Image src={Logo} />
+                <Image src={Logo} alt='logo'/>
             </div>
             <div className='2xl:hidden justify-self-end' onClick={() => { setNavExpanded(!navExpanded) }}>
                 {/* HEROICONS https://heroicons.com/ */}

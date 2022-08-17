@@ -37,7 +37,7 @@ export default function Home() {
             <Link href='/'><a className="button-primary">Get Started</a></Link>
           </div>
           <div className='2xl:order-2 order-1 2xl:mb-[120px]'>
-            <Image src={Illustration} width={650} height={450} />
+            <Image src={Illustration} width={650} height={450} alt='Illustration'/>
           </div>
           <FormURL url={url} setUrl={setUrl} />
 
@@ -63,21 +63,21 @@ export default function Home() {
           <div className="grid grid-rows-3 2xl:grid-rows-1 2xl:grid-flow-col  text-left gap-x-4 auto-cols-[minmax(10px,310px)] line-before relative">
             <article className='card'>
               <div>
-                <Image src={LogoBrand} />
+                <Image src={LogoBrand} alt='LogoBrand'/>
               </div>
               <h2>Brand Recognition</h2>
               <p>Boost your brand recognition with <br /> each click. Generic links don’t mean a <br /> thing. Branded links help instil <br /> confidence in your content.</p>
             </article>
             <article className="card translate-y-[2rem] ">
               <div>
-                <Image src={LogoRecord} />
+                <Image src={LogoRecord} alt='LogoRecord'/>
               </div>
               <h2>Detailed Records</h2>
               <p>Gain insights into who is clicking your <br /> links. Knowing when and where <br /> people engage with your content <br /> helps inform better decisions.</p>
             </article>
             <div className="card translate-y-[4rem]">
               <div>
-                <Image src={LogoCustom} width={40} height={40} />
+                <Image src={LogoCustom} width={40} height={40} alt='LogoCustom'/>
               </div>
               <h2>Fully Customizable</h2>
               <p>Improve brand awareness and <br /> content discoverability through <br /> customizable links, supercharging <br /> audience engagement.</p>
