@@ -29,7 +29,7 @@ body {
     @apply bg-cyan text-white py-1.5 px-7 rounded-full;
   }
   .button-primary-form {
-    @apply bg-cyan text-white py-1.5 px-7 rounded-lg 2xl:ml-[4rem] basis-1/4;
+    @apply bg-cyan text-white py-1.5 px-7 rounded-lg xl:ml-[4rem] basis-1/4;
   }
   .button-primary-sm {
     @apply bg-cyan text-white py-1.5 px-7 rounded-md;
@@ -47,31 +47,31 @@ body {
     @apply bg-violet-custze;
   }
   .card {
-    @apply z-20 text-sm bg-white relative pt-[70px] pb-[1.5rem] pl-[22px] mb-10 2xl:mb-0 rounded-md;
+    @apply z-20 text-sm bg-white relative pt-[70px] pb-[1.5rem] pl-[22px] mb-10 xl:mb-0 rounded-md;
   }
   .card > div {
-    @apply absolute top-0 2xl:left-8 left-[7.5rem] translate-y-[-30px] bg-violet-custze flex p-5 rounded-full;
+    @apply absolute top-0 xl:left-8 left-[7.5rem] translate-y-[-30px] bg-violet-custze flex p-5 rounded-full;
   }
   .card > h2 {
-    @apply text-2xl text-very-dark-violet pb-5 font-bold;
+    @apply text-xl text-very-dark-violet pb-5 font-bold;
   }
   .card > p {
     @apply text-grayish-violet;
   }
   .line-before::before {
-    @apply content-[''] w-[0.5rem] h-full 2xl:h-[0.5rem] 2xl:w-full bg-cyan absolute z-10 left-[50%] 2xl:bottom-[50%] 2xl:left-0;
+    @apply content-[''] w-[0.5rem] h-full xl:h-[0.5rem] xl:w-full bg-cyan absolute z-10 left-[50%] xl:bottom-[50%] xl:left-0;
   }
   .bg-ima-custze {
-    @apply bg-[url('../public/static/images/bg-boost-mobile.svg')] 2xl:bg-[url('../public/static/images/bg-boost-desktop.svg')] bg-no-repeat bg-cover bg-[#3a3053] py-[5rem];
+    @apply bg-[url('../public/static/images/bg-boost-mobile.svg')] xl:bg-[url('../public/static/images/bg-boost-desktop.svg')] bg-no-repeat bg-cover bg-[#3a3053] py-[5rem];
   }
   .bg-ima-custze-2 {
-    @apply bg-[url('../public/static/images/bg-shorten-mobile.svg')] 2xl:bg-[url('../public/static/images/bg-shorten-desktop.svg')] bg-no-repeat bg-cover bg-[#3a3053] py-[2rem] 2xl:py-[4rem] rounded-lg w-[100%] bottom-[-74px] absolute 2xl:bottom-[-84px];
+    @apply bg-[url('../public/static/images/bg-shorten-mobile.svg')] xl:bg-[url('../public/static/images/bg-shorten-desktop.svg')] bg-no-repeat bg-cover bg-[#3a3053] py-[2rem] xl:py-[4rem] rounded-lg w-[100%] bottom-[-74px] absolute xl:bottom-[-84px];
   }
   .footer {
     @apply bg-very-dark-violet;
   }
   .container-footer {
-    @apply grid 2xl:grid-cols-5 py-[5rem] w-[75%] m-auto text-center 2xl:text-left 2xl:space-y-0 space-y-5 justify-items-center;
+    @apply grid xl:grid-cols-5 py-[5rem] w-[75%] m-auto text-center xl:text-left xl:space-y-0 space-y-5 justify-items-center;
   }
   .container-footer > div > h3 {
     @apply text-white mb-4;

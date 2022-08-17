@@ -30,13 +30,13 @@ export default function Home() {
   return (
     <Layout>
       <div>
-        <section className="flex flex-col 2xl:flex-row justify-center 2xl:justify-between items-center h-screen relative w-[75%] mx-auto">
-          <div className="2xl:order-1 order-2 mb-[120px] text-center 2xl:text-left">
-            <h1 className="text-very-dark-violet text-4xl 2xl:text-5xl font-bold">More than just <br /> shorter links</h1>
-            <p className="text-grayish-violet 2xl:mb-[5rem] mb-[2rem]">Build your brand&apos;s recognition and get detailed <br /> insights on how your links are performing.</p>
+        <section className="flex flex-col xl:flex-row justify-center xl:justify-between items-center h-screen relative w-[75%] mx-auto">
+          <div className="xl:order-1 order-2 mb-[120px] text-center xl:text-left">
+            <h1 className="text-very-dark-violet text-4xl xl:text-5xl font-bold">More than just <br /> shorter links</h1>
+            <p className="text-grayish-violet xl:mb-[5rem] mb-[2rem]">Build your brand&apos;s recognition and get detailed <br /> insights on how your links are performing.</p>
             <Link href='/'><a className="button-primary">Get Started</a></Link>
           </div>
-          <div className='2xl:order-2 order-1 2xl:mb-[120px]'>
+          <div className='xl:order-2 order-1 xl:mb-[120px]'>
             <Image src={Illustration} width={650} height={450} alt='Illustration'/>
           </div>
           <FormURL url={url} setUrl={setUrl} />
@@ -46,10 +46,10 @@ export default function Home() {
         <section className="bg-grayish-custze flex flex-col items-center justify-center pt-[6rem] pb-[8rem]">
           <ul className="mb-8 w-[75%]">
             {url.map(url => (
-              <div key={url.code} className="flex items-center bg-white p-5 rounded-md flex-col 2xl:flex-row">
+              <div key={url.code} className="flex items-center bg-white p-5 rounded-md flex-col xl:flex-row">
                 <p className="basis-[80%]">{url.original_link}</p>
                 
-                <div className="flex basis-2/5 justify-between items-center flex-col 2xl:flex-row">
+                <div className="flex basis-2/5 justify-between items-center flex-col xl:flex-row">
                   <Link href={url.full_short_link}>
                     <a target="_blanck" className="text-cyan hover:underline hover:decoration-1">{url.short_link}</a>
                   </Link>                  
@@ -60,7 +60,7 @@ export default function Home() {
           </ul>
           <h2 className="text-3xl text-very-dark-violet font-bold mt-[1rem] mb-[1rem]">Advanced Statistics</h2>
           <p className="text-center text-grayish-violet mb-[5rem]">Track how your links are performinf across the web with <br /> our advanced statics dashborad.</p>
-          <div className="grid grid-rows-3 2xl:grid-rows-1 2xl:grid-flow-col  text-left gap-x-4 auto-cols-[minmax(10px,310px)] line-before relative">
+          <div className="grid grid-rows-3 xl:grid-rows-1 xl:grid-flow-col  text-left gap-x-4 auto-cols-[minmax(10px,310px)] line-before relative">
             <article className='card'>
               <div>
                 <Image src={LogoBrand} alt='LogoBrand'/>

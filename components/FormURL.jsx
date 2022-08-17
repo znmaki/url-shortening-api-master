@@ -34,7 +34,7 @@ const FormURL = ({url, setUrl}) => {
             }}
         >
             <div className="bg-ima-custze-2 flex justify-center">
-                <Form className='flex flex-col 2xl:flex 2xl:flex-row 2xl:items-center relative w-[80%]'>
+                <Form className='flex flex-col xl:flex xl:flex-row xl:items-center relative w-[80%]'>
                         {/* <Field
                             className="rounded-md"
                             type="text"
@@ -55,7 +55,7 @@ const FormURL = ({url, setUrl}) => {
                                         className={`basis-3/4 rounded-lg p-1 ${meta.touched && meta.error ? 'border-4 border-red-600' : ''}`}
                                     />
                                     {meta.touched && meta.error && (
-                                        <p className="text-red-600 text-xs italic 2xl:absolute 2xl:top-[2.8rem] mb-5 2xl:mb-0">{meta.error}</p>
+                                        <p className="text-red-600 text-xs italic xl:absolute xl:top-[2.8rem] mb-5 xl:mb-0">{meta.error}</p>
                                     )}
                                 </>
                             )}
